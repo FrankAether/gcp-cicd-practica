@@ -19,3 +19,5 @@ steps:
   - '--allow-unauthenticated'
 images:
 - 'gcr.io/$PROJECT_ID/app-cicd'
+options:
+  logging: CLOUD_LOGGING_ONLY
